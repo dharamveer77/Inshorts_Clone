@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const getNews=async()=>{
-    const url='inshorts-clone-one.vercel.app';
+    const url='http://localhost:8000';
     try{
       return await axios.get(`${url}/news`)
     }catch(error){
